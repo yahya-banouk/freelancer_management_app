@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="freelancer:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>freelancer</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="freelancer-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="freelancer:war exploded" />
+    </root>
+  </artifact>
+</component>
